@@ -1,0 +1,40 @@
+.icons {
+    background-color: white;
+    text-align: center;
+    max-width: 100%;
+    box-shadow: 0 -10px 10px rgba(75, 75, 75, 0.5);
+    position: relative;
+    z-index: 99;
+}
+
+.icon-container {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    z-index: 99;
+
+}
+
+.icon-container a {
+    width: 100%;
+    text-decoration: none;
+}
+
+.icon-container h2 {
+    margin-top: 5px;
+    color: rgba(56, 37, 14, 0.8);
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+.icon-container img {
+    width: 60%;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 600px) {
+    .icon-container h2 {
+        font-size: 40px;
+    }
+}

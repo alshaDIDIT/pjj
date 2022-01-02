@@ -1,0 +1,19 @@
+#nav {
+  height: 75px;
+  width: 100vw;
+  background: rgba(100%, 100%, 100%, 1);
+  position: fixed;
+  box-shadow: 0 0.5px 10px rgba(0, 0, 0, 0.5);
+  transform: translate3d(0, 0, 0);
+  transition: 0.3s all ease-out;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  z-index: 999;
+}
+
+.logo {
+  width: 200px;
+  height: 40px;
+  margin: 20px 20px 20px 20px;
+}

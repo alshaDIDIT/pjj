@@ -1,0 +1,22 @@
+.introimg {
+    /* position: absolute; */
+    background-image: url("../../img/mark.jpg");
+    min-height: 600px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    z-index: -2;
+}
+
+.front {
+    top: 250px;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 480px) {
+  
+}
